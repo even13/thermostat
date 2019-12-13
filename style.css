@@ -1,5 +1,81 @@
+h1 {
+  font-family: "Verdana", sans-serif;
+  font-size: 30px;
+}
+
+body {
+  background-color: rgb(255,245,238);
+  font-family: "Verdana", sans-serif;
+}
+
+#weather {
+  color: rgb(255,255,240);
+  padding: 10em;
+  text-align: center;
+  height: 10em;
+  line-height: 2em;
+  background-color: rgb(128, 128, 128);
+}
+
+#choose-city {
+  background-color: rgb(255,245,238);
+  border: none;
+  color: rgb(128, 128, 128);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1.5em;
+}
+
+#thermostat {
+  text-align: center;
+  height: 100px;
+  line-height: 50px;
+  width: 100%;
+  margin: auto;
+}
+
+#temperature-up, #temperature-down, #temperature-reset {
+  background-color: rgb(76, 174, 79);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+#powersaving-on, #powersaving-off {
+  background-color: rgb(76, 174, 79);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+
+#PSM {
+  font-size: 24px;
+}
+
 .low-usage {
-  color: green;
+  color: rgb(76, 174, 79);
 }
 
 .medium-usage {
@@ -7,5 +83,5 @@
 }
 
 .high-usage {
-  color: red;
+  color: rgb(174, 76, 76);
 }

@@ -10,20 +10,25 @@
 </head>
 
 <body>
-  <section>
+  <section id="weather">
     <h1>Current temperature: <span id="current-temperature">20</span></h1>
+    <h1>Weather : <span id="description">description</span><img src="" id="icon"></h1>
     <form id="select-city">
       <input id="current-city" type="text" placeholder="Enter a city"></input>
-      <input type="submit"></input>
+      <input id="choose-city" type="submit"></input>
     </form>
   </section>
-  <section>
-    <h1 id='temperature'></h1>
-    <p>
+  <section id="thermostat">
+    <h1>Thermostat set on : <span id='temperature'>20</span></h1>
+    <p id="set">
       <button id='temperature-up'>+</button>
       <button id='temperature-down'>-</button>
       <button id='temperature-reset'>reset</button>
-      power saving mode is <span id='power-saving-status'>on</span>
+    </p>
+    <p id="PSM">
+      Power Saving Mode is <span id='power-saving-status'>On</span>
+    </p>
+    <p>
       <button id='powersaving-on'>Powersaving On</button>
       <button id='powersaving-off'>Powersaving Off</button>
     </p>
